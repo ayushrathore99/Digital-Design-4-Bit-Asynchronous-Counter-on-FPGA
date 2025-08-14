@@ -1,2 +1,2 @@
-# Digital-Design-4-Bit-Asynchronous-Counter-on-FPGA
+# Digital-Design-4-Bit-Synchronous-UP-Down-Counter-on-FPGA
 A 4‑bit synchronous up/down counter in Verilog HDL is implemented on a Pynq FPGA with count enable, direction control, parallel load, and active‑low asynchronous reset. It performs modulo‑16 counting, increments when up_down=1, decrements when up_down=0, loads d_in on load=1, and clears on rst_n=0. Inputs are via switches/buttons, outputs via LEDs.
